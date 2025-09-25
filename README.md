@@ -41,9 +41,11 @@ Implemented GitOps based CI/CD pipeline using GitLab CI, Argo CD and Helm on Kub
 
 ## Results
 
-<img width="1098" height="397" alt="image" src="https://github.com/user-attachments/assets/0dba7989-8d63-48a4-b56d-ed6da4216a9c" />
+<img width="1014" height="475" alt="image" src="https://github.com/user-attachments/assets/240deae5-9d21-4d3b-ae53-74dd17d5c761" />
 
-<img width="1249" height="620" alt="image" src="https://github.com/user-attachments/assets/631d82bb-05c3-4de8-9cfd-aa3075c9c0d2" />
+
+<img width="1913" height="711" alt="image" src="https://github.com/user-attachments/assets/f99bedcc-e6ea-4761-96b8-2c6d657a2aac" />
+
 
 
 
