@@ -13,7 +13,7 @@ Check GitLab Repos: https://gitlab.com/Omar.Ahmed.7401/code-repo & https://gitla
 -	Containerized a sample application with Docker and pushed images to container registry.
 -	Automated image build, tag and publish using GitLab CI pipeline.
 -	Packaged Kubernetes manifests into Helm charts for templated deployments. 
--	Configured Argo CD to synchronize manifests from Git to Kubernetes for automated delivery.
+-	Configured Argo CD to synchronize manifests from Git to Kubernetes for automated deployments.
 
 # Tech-Stack
 
@@ -21,7 +21,7 @@ Check GitLab Repos: https://gitlab.com/Omar.Ahmed.7401/code-repo & https://gitla
 - Docker → Application containerization
 - Kubernetes → Container orchestration platform
 - Helm → Packaging Kubernetes manifests  
-- Argo CD → GitOps-based Continuous Delivery
+- Argo CD → GitOps-based Continuous Deployment
 
 # Key-Features
 
@@ -29,7 +29,7 @@ Check GitLab Repos: https://gitlab.com/Omar.Ahmed.7401/code-repo & https://gitla
 - Continous Integration via GitLab CI pipelines automating build and push of Docker images.  
 - Helm Charts for templated Kubernetes manifests.  
 - GitOps Workflow for declarative, version-controlled deployments.  
-- Continuous Delivery via Argo CD syncing Git with Kubernetes.
+- Continuous Deployment via Argo CD syncing Git with Kubernetes.
 
 # Detailed-Steps
 
@@ -37,7 +37,7 @@ Check GitLab Repos: https://gitlab.com/Omar.Ahmed.7401/code-repo & https://gitla
 1) code-repo: contains application source code + `.gitlab-ci.yml` Check it here: https://gitlab.com/Omar.Ahmed.7401/code-repo
 2) manifest-repo: contains Kubernetes manifests and Helm charts Check it here: https://gitlab.com/Omar.Ahmed.7401/manifest-repo
 - Cloned the repos to local machine to add source codes and manifests then push again to GitLab
-- Created .gitlab-ci.yml file on code-repo to build image, push to container registry and update Helm Chart for deployment
+- Created .gitlab-ci.yml file on code-repo to build image, push to container registry and update Helm Chart for deployments
 - Connected Argo CD with my GitLab account through username and PAT(personal access token) and added manifest repo to Argo CD
 - Created new app on Argo CD by defining source repo, path, targeted cluster and sync policy
 
