@@ -28,3 +28,7 @@ Implemented GitOps based CI/CD pipeline using GitLab CI, Argo CD and Helm on Kub
 - Helm Charts for templated Kubernetes manifests.  
 - GitOps Workflow for declarative, version-controlled deployments.  
 - Continuous Delivery via Argo CD syncing Git with Kubernetes.  
+
+<img width="975" height="461" alt="image" src="https://github.com/user-attachments/assets/68dd36b2-6324-4123-a8e8-17a7d103d952" />
+
+<img width="777" height="464" alt="image" src="https://github.com/user-attachments/assets/490b1b19-e6d6-4b58-bfe8-b0174253808d" />
