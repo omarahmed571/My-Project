@@ -27,7 +27,9 @@ Implemented GitOps based CI/CD pipeline using GitLab CI, Argo CD and Helm on Kub
 - Continous Integration via GitLab CI pipelines automating build and push of Docker images.  
 - Helm Charts for templated Kubernetes manifests.  
 - GitOps Workflow for declarative, version-controlled deployments.  
-- Continuous Delivery via Argo CD syncing Git with Kubernetes.  
+- Continuous Delivery via Argo CD syncing Git with Kubernetes.
+
+## Results
 
 <img width="740" height="381" alt="image" src="https://github.com/user-attachments/assets/409938db-204b-4cc6-9eb6-c7926f9b56a4" />
 
