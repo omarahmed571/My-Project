@@ -29,6 +29,16 @@ Implemented GitOps based CI/CD pipeline using GitLab CI, Argo CD and Helm on Kub
 - GitOps Workflow for declarative, version-controlled deployments.  
 - Continuous Delivery via Argo CD syncing Git with Kubernetes.
 
+## Detailed-Steps
+
+- Created 2 gitlab repos: code-repo and manifest-repo
+1) code-repo: contains application source code + `.gitlab-ci.yml`
+2) manifest-repo: contains Kubernetes manifests and Helm charts for deployment
+- Cloned the repos to local machine to add source codes and manifests then push again to gitlab
+- Created .gitlab-ci.yml file on code-repo to build image, push to gitlab container registry and update helm chart for deployment
+- Connected argo with my gitlab account username and PAT(personal access token) and added manifest repo to argo
+- Created new app on argo by defining source repo, path, targeted cluster and sync policy
+
 ## Results
 
 
