@@ -43,25 +43,25 @@ Check GitLab Repos: https://gitlab.com/Omar.Ahmed.7401/code-repo & https://gitla
 
 # Results
 
-## GitLab CI pipeline ran successfully:
+### GitLab CI pipeline ran successfully:
 
 
 <img width="1014" height="475" alt="image" src="https://github.com/user-attachments/assets/240deae5-9d21-4d3b-ae53-74dd17d5c761" />
 
 
-## Argo CD synced manifests successfully:
+### Argo CD synced manifests successfully:
 
 
 <img width="1913" height="711" alt="image" src="https://github.com/user-attachments/assets/f99bedcc-e6ea-4761-96b8-2c6d657a2aac" />
 
 
-## Application deployed to Kubernetes cluster successfully:
+### Application deployed to Kubernetes cluster successfully:
 
 
 <img width="1214" height="375" alt="image" src="https://github.com/user-attachments/assets/921ea162-5129-4cbf-a80a-9655e27bc951" />
 
 
-## Proof:
+### Proof:
 
 
 <img width="1915" height="846" alt="image" src="https://github.com/user-attachments/assets/373cfc42-73ad-4785-8906-47a99e44224c" />
